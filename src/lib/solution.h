@@ -1,0 +1,14 @@
+#ifndef TEMPLATE_SOLUTION_H
+#define TEMPLATE_SOLUTION_H
+
+#include <string>
+
+
+class Solution {
+public:
+  int Add(int a, int b);
+  std::string Add(std::string& a, std::string& b);
+  std::string Add(std::string a, int b);
+};
+
+#endif
